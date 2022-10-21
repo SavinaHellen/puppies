@@ -1,0 +1,109 @@
+body {
+  background-color: #c0e0ce;
+}
+
+div {
+  background: linear-gradient(
+    180.5deg,
+    rgb(0, 128, 128) 8.5%,
+    rgb(174, 206, 100) 118.2%
+  );
+  border: none;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 10px 15px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 20px 50px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(57, 48, 50);
+}
+
+h1 {
+  color: #faffb8;
+  font-style: bold;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  border: 1.5px solid #faffb8;
+  line-height: 18px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  color: #c5f0a4;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 15px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid #226b80;
+  background: #faffb8;
+  color: #226b80;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 76px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background: #226b80;
+  color: #faffb8;
+  cursor: pointer;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 18px;
+  margin: 10px 0 20px;
+  color: #c5f0a4;
+}
+span {
+  line-height: 1.5;
+  font-size: 16px;
+  color: #226b80;
+  margin: 5px 0 20px;
+}
+
+.wikipedia {
+  text-decoration: none;
+  margin-top: 30px;
+  color: #faffb8;
+}
+
+.wikipedia:hover {
+  text-decoration: underline;
+  color: #226b80;
+}
+.footer {
+  color: #226b80;
+  font-size: 10px;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 30px;
+}
+
+.author {
+  color: #faffb8;
+  text-decoration: none;
+}
+
+.author:hover {
+  text-decoration: underline;
+}
